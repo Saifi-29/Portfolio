@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="next.css">
+    <script src="https://kit.fontawesome.com/fe7147b659.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo3.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#SYMPATHY">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-ellipsis" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>Software Developer</span></p>
+                <h1>HELLO.. <br>My name is <span>Tofique Nasir</span>, I'm a software developer.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------------ABOUT-------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>My Name is Tofique Nasir persuing my B.Tech degree from
+                        Sant Longowal Institute of Engineering And Technology.
+                        I like to solve questions related to the topic 
+                    data structures and Algorithm. I also have my intrests in Object-Oriented Programming. Apart from this I have good communication skill. My Aim is 
+                to get placed in tech company like Walmart global tech.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <!---skills--->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Languages</span><br>C++, Python, HTML/CSS, JavaScript</li>
+                                <li><span>Databases / Platforms</span><br>SQL, Windows, Linux</li>
+                                <li><span>CS course</span><br>C++ programming, Data structures and algorithm,
+                                     Basic Python, DBMS, Operating System , object-oriented Programming, cloud computing</li>
+                            </ul>
+                        </div>
+                        <!---exp--->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Infosys</span><br>4 weeks Industrial Training at Infosys Hyderabad</li>
+                                <li><span>Leetcode</span><br>Solved 50+ Questions of hard and medium level on Leetcode</li>
+                            </ul>
+                        </div>
+                        <!---education--->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>10th Board</span><br>Gyan Bharti Residential Complex Bodhgaya  <br>CBSE<br>percentage - 90.6%</li>
+                                <li><span>12th Board</span><br>Gyan Bharti Residential Complex Bodhgaya <br>CBSE <br>Percentage - 82.6%</li>
+                                <li><span>Graduation</span><br>Sant Longowal Institute of Engineering and Technology 
+                                    <br>B.Tech, Third Year<br> C.G.P.A - 7.88</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------SYMPATHY-------------->
+    <div id="SYMPATHY">
+        <div class="container">
+            <h1 class="subtitle">SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-ghost"></i>
+                    <h2>Sir</h2>
+                    <p>none. </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+                <div>
+                    <i class="fa-solid fa-ghost"></i>
+                    <h2>Sir</h2>
+                    <p>none. </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+                <div>
+                    <i class="fa-solid fa-ghost"></i>
+                    <h2>Sir</h2>
+                    <p>none. </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!------------PORTFOLIO---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">PORTFOLIO</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/coding.gif">
+                    <div class="layer">
+                        <h3>WHAT I KNOW</h3>
+                        <p>C++ competitive Programming</p>
+                        <p>Data Structures and Algorithm</p>
+                        <p>Object-Oriented Programming</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/infosysg.png">
+                    <div class="layer">
+                        <h3>MY CERTIFICATIONS</h3>
+                        <p>Certificate from Infosys Springboard in Data Structures and Algorithms.</p>
+                        <p>Certificate from Infosys Springboard in RDBMS.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/leet.gif">
+                    <div class="layer">
+                        <h3>WEBSITES WHERE I DO CODING</h3>
+                        <p>Leetcode</p>
+                        <p>Interview Bit</p>
+                        <p>Coding Ninja</p>
+                        <p>competitive programming on Code Chef</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- --------------CONTACT--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> mail.tofique.29@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +91-7209848313</p>
+                    <div class="social-icons">
+                        <a href="https://leetcode.com/saifi_29/"><i class="fa-solid fa-code"></i></a>
+                        <a href="https://wa.me/917209848313"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://leetcode.com/saifi_29/"><i class="fa-solid fa-code"></i></a>
+                        <a href="https://leetcode.com/saifi_29/"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                    <a href="images/cpp2.gif" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemnu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemnu.style.right = "0";
+    }
+    function closemenu(){
+        sidemnu.style.right = "-200px";
+    }
+
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzwwYIRRaUbtJlOFTx4lx8-uHnaBFGGCC0t06Cnd-M_1a_sMtQBNFbr1kFeyzpAoZ4/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
